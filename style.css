@@ -22,7 +22,7 @@ body {
 .textbox {
   border: 3px rgb(29, 153, 255) solid;
   font-weight: 100;
-  width: 450px;
+  width: 350px;
   height: 50px;
   font-size: 25px;
 }
