@@ -1,0 +1,37 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coronvirus Stats</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <br />
+    <h1>Coronavirus Cases by Country</h1>
+    <br />
+    <form id="form">
+      <label>Search by your country:</label>
+      <br />
+      <br />
+      <input class="textbox" id="getCountry" type="text" />
+      <button class="search" type="submit">Search</button>
+    </form>
+    <div class="country">
+      <h3 id="log"></h3>
+    </div>
+    <br />
+    <h1>Coronavirus Cases by State</h1>
+    <br />
+    <form id="formTwo">
+      <label>Search by your state:</label>
+      <br />
+      <br />
+      <input class="textbox" id="getState" type="text" />
+      <button class="search" type="submit">Search</button>
+    </form>
+
+    <h3 id="logTwo"></h3>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

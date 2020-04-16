@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+}
+body {
+  background: rgb(11, 0, 36);
+  color: aliceblue;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.confirmed {
+  color: yellow;
+}
+.deaths {
+  color: red;
+}
+.recovered {
+  color: green;
+}
+.active {
+  color: orange;
+}
+.textbox {
+  border: 3px rgb(29, 153, 255) solid;
+  font-weight: 100;
+  width: 450px;
+  height: 50px;
+  font-size: 25px;
+}
+.search {
+  margin: 20px;
+  background-color: rgb(29, 153, 255);
+  color: aliceblue;
+  padding: 10px;
+}
